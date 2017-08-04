@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DC4C844F308A1163E25A1349F187341 /* JSONEncodable+Mirror.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D92F3FF77EF5A7CDB3B341CB1980DD /* JSONEncodable+Mirror.swift */; };
+		0FAFD2273943FC5C421F48E3F757657C /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 38E57F1800A0BF3F9536A494FF3292C0 /* SVProgressHUD.bundle */; };
+		118EB372E0DCC6D344F66D9107ED1A11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		196CD66AA2030F71E524DADF38A2E2D8 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = F98E6F22EFDC448BD1444AAA22B37F16 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20B69CD791126B452098470C02434C88 /* JSONTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C488DE8737AA796FFEB38B5F6F39BA88 /* JSONTransformer.swift */; };
+		302C3D0D1E5C095AF428BAD97ED641AA /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = BB824648C248BB517ACE8B37919855A6 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46DAF1179F1CF972EF3CFC5CA0CDCF0F /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A272C5C3BEA93B6569275DF760E703 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		479E08A92C9B423F3CB3B407F3277FFC /* Pods-OrionHealth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 628EC6C3FF0F33C0A5E3F7CEE7E34844 /* Pods-OrionHealth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E072F5E8CA72400A800B18518861D1F /* JSONCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E712322037ED81CF76AF5E1444DF80 /* JSONCodable.swift */; };
+		512B6210D46DECFDB49DB087A7B18B80 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 925D93FB3297388A9E90500935A24509 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51B6DC81AE4EC6820C519525DB7482A9 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEFA8C78D29744DCDD97E5AE9742C85 /* SVProgressHUD.m */; };
+		5D512346FA1769574F1AC2D1537CED35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		77AE85262E5C805D9DBC50EC090F2EC9 /* JSONHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971842EBBCB17B8A612B60C47632325E /* JSONHelpers.swift */; };
+		77FCE397E43F4FE82EF218F010817A88 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7442D54D8EF6216766DE81B4ECE6A71A /* SVRadialGradientLayer.m */; };
+		7B798421D902FC7D96C6AE60FC5648C9 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6FB72E8D174EDF4384FE80615102A5 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		805BAFCFDFC6F5402F7637EDDBED8CB0 /* JSONString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BBD4D8FAD69C7D8BC98EF012B4770 /* JSONString.swift */; };
+		83C994641D50162FDDC5DC0A26E323D9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */; };
+		9005B1DF289E20A464F135E6C04F3380 /* JSONCodable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 226617268F477521FA51FCECCEEE8FD9 /* JSONCodable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		958E3E72F4CE7DE73BF460FED05F3711 /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C1A9789693204FD2499C856A854CE9 /* JSONDecodable.swift */; };
+		9FA76A7B0C1B396DF75A19DCBF5CF37A /* JSONCodable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E3564F6028EACCF45ABAC977E242ED /* JSONCodable-dummy.m */; };
+		AE9BEB8689A9874A4710E9DF456DC466 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1E8412F5ACD720F196312A3344A565 /* SVProgressAnimatedView.m */; };
+		C6D4843B6A3AE8500F4CDA01CB58BB29 /* JSONEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4455EE36D24A4E5B1D0F3A92604825 /* JSONEncodable.swift */; };
+		C9A106D60FF9C217D05A7AD06EC1EFD7 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D56A987540353DA10E6C4BEC31CD02BF /* SVProgressHUD-dummy.m */; };
+		CDA6ED5CE7E63D264866E155C0B00F43 /* Pods-OrionHealth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F4063149A4FB1718C041F2505511AF /* Pods-OrionHealth-dummy.m */; };
+		EB4E5FBA6779377E6415786CD005EA32 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE256FFFF5D932A7BED07D3A18902A2 /* SVIndefiniteAnimatedView.m */; };
+		FE9BD47146F34E02DD274AA1D7E1636F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7725A06C49913CF555B9773399B9A655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 153BD6A46C7B6EFD84230CFFC1C3CF94;
+			remoteInfo = SVProgressHUD;
+		};
+		A121B59677EE19CE310B5F3D7D784805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 983BB71ECB9F80FDB23624080819A66F;
+			remoteInfo = JSONCodable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040BBD4D8FAD69C7D8BC98EF012B4770 /* JSONString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONString.swift; path = JSONCodable/JSONString.swift; sourceTree = "<group>"; };
+		073E664E352C9761E5C0A63A165E27FC /* Pods-OrionHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrionHealth.debug.xcconfig"; sourceTree = "<group>"; };
+		1D4455EE36D24A4E5B1D0F3A92604825 /* JSONEncodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncodable.swift; path = JSONCodable/JSONEncodable.swift; sourceTree = "<group>"; };
+		226617268F477521FA51FCECCEEE8FD9 /* JSONCodable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONCodable-umbrella.h"; sourceTree = "<group>"; };
+		27DADE12489D84261F93461C1B47A305 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29C1A9789693204FD2499C856A854CE9 /* JSONDecodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONDecodable.swift; path = JSONCodable/JSONDecodable.swift; sourceTree = "<group>"; };
+		29D5C5C9FA04DD415A7E2093D90C6697 /* Pods-OrionHealth-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OrionHealth-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2DBB1F89C166E5A9835D881F33038CDD /* JSONCodable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONCodable-prefix.pch"; sourceTree = "<group>"; };
+		31E3564F6028EACCF45ABAC977E242ED /* JSONCodable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONCodable-dummy.m"; sourceTree = "<group>"; };
+		38E57F1800A0BF3F9536A494FF3292C0 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		461C32380E4F4FEBD0475269BE988753 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		468E9F8DC4436ACBF306536CC00B07E6 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		596AE8DCB4E4F4E03CD889CC22060697 /* Pods-OrionHealth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OrionHealth.modulemap"; sourceTree = "<group>"; };
+		59D92F3FF77EF5A7CDB3B341CB1980DD /* JSONEncodable+Mirror.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JSONEncodable+Mirror.swift"; path = "JSONCodable/JSONEncodable+Mirror.swift"; sourceTree = "<group>"; };
+		5AF8E1E4549359337FD0F1D55F8F56EC /* Pods_OrionHealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OrionHealth.framework; path = "Pods-OrionHealth.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		628EC6C3FF0F33C0A5E3F7CEE7E34844 /* Pods-OrionHealth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OrionHealth-umbrella.h"; sourceTree = "<group>"; };
+		6FE256FFFF5D932A7BED07D3A18902A2 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		7442D54D8EF6216766DE81B4ECE6A71A /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		7ACE00FADC6AA13891797503F5A828A9 /* Pods-OrionHealth-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OrionHealth-frameworks.sh"; sourceTree = "<group>"; };
+		7D1E8412F5ACD720F196312A3344A565 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		7DE43254E80241C004AAB5CEB2600163 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		85E117A18A519D728931D3393E2D9902 /* JSONCodable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONCodable.xcconfig; sourceTree = "<group>"; };
+		925D93FB3297388A9E90500935A24509 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95A272C5C3BEA93B6569275DF760E703 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		971842EBBCB17B8A612B60C47632325E /* JSONHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONHelpers.swift; path = JSONCodable/JSONHelpers.swift; sourceTree = "<group>"; };
+		9756C318CC51C72951BE61B95CEAF5D9 /* Pods-OrionHealth-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OrionHealth-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C6FB72E8D174EDF4384FE80615102A5 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		9F2D8B7530B6D9D719B099A0E3426AC7 /* JSONCodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSONCodable.framework; path = JSONCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FEFA8C78D29744DCDD97E5AE9742C85 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		A21566A088C7D7E64B72115FE9C06EA7 /* Pods-OrionHealth-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OrionHealth-resources.sh"; sourceTree = "<group>"; };
+		A7CAABE9CE236E01DCDDF1C157295475 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAF4F2E49EEB8ED14DCF08C23884007 /* JSONCodable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JSONCodable.modulemap; sourceTree = "<group>"; };
+		B64916695DCB31223C0A82291EC75521 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB824648C248BB517ACE8B37919855A6 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		C235E529D7AD05142BE4043912939679 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		C488DE8737AA796FFEB38B5F6F39BA88 /* JSONTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONTransformer.swift; path = JSONCodable/JSONTransformer.swift; sourceTree = "<group>"; };
+		C5F4063149A4FB1718C041F2505511AF /* Pods-OrionHealth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OrionHealth-dummy.m"; sourceTree = "<group>"; };
+		D56A987540353DA10E6C4BEC31CD02BF /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		E6E712322037ED81CF76AF5E1444DF80 /* JSONCodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONCodable.swift; path = JSONCodable/JSONCodable.swift; sourceTree = "<group>"; };
+		E9DE00AC095293D7ABD5B64033FC9952 /* Pods-OrionHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrionHealth.release.xcconfig"; sourceTree = "<group>"; };
+		F98E6F22EFDC448BD1444AAA22B37F16 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D53FC178F8D3107D099C50C50E19FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D512346FA1769574F1AC2D1537CED35 /* Foundation.framework in Frameworks */,
+				83C994641D50162FDDC5DC0A26E323D9 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80572B8464A59E23D41519DBAC9ADB0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118EB372E0DCC6D344F66D9107ED1A11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3C3F6BBF5D43699B22052256633375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9BD47146F34E02DD274AA1D7E1636F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				978007DCB56F415BE390E0F949D4D4E5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49EA01A788956281B7C7CA6E5296AA50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA61A0655D450F31BC256EEFF8F40AC1 /* JSONCodable */,
+				83DD0F882D0A817F8F06109E13B79CB2 /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				49EA01A788956281B7C7CA6E5296AA50 /* Pods */,
+				E0AB116CDE72775C1D835D96FBA830AB /* Products */,
+				9AD250921428DFE9090CC0819BEAEADE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83DD0F882D0A817F8F06109E13B79CB2 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F98E6F22EFDC448BD1444AAA22B37F16 /* SVIndefiniteAnimatedView.h */,
+				6FE256FFFF5D932A7BED07D3A18902A2 /* SVIndefiniteAnimatedView.m */,
+				95A272C5C3BEA93B6569275DF760E703 /* SVProgressAnimatedView.h */,
+				7D1E8412F5ACD720F196312A3344A565 /* SVProgressAnimatedView.m */,
+				9C6FB72E8D174EDF4384FE80615102A5 /* SVProgressHUD.h */,
+				9FEFA8C78D29744DCDD97E5AE9742C85 /* SVProgressHUD.m */,
+				BB824648C248BB517ACE8B37919855A6 /* SVRadialGradientLayer.h */,
+				7442D54D8EF6216766DE81B4ECE6A71A /* SVRadialGradientLayer.m */,
+				AA0FCE351CE60255FC49FEAC7F4D275F /* Resources */,
+				D8215E7971E0CFDE9F263E7B681D49D6 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		865658622FB598F7C094E659751570B1 /* Pods-OrionHealth */ = {
+			isa = PBXGroup;
+			children = (
+				A7CAABE9CE236E01DCDDF1C157295475 /* Info.plist */,
+				596AE8DCB4E4F4E03CD889CC22060697 /* Pods-OrionHealth.modulemap */,
+				29D5C5C9FA04DD415A7E2093D90C6697 /* Pods-OrionHealth-acknowledgements.markdown */,
+				9756C318CC51C72951BE61B95CEAF5D9 /* Pods-OrionHealth-acknowledgements.plist */,
+				C5F4063149A4FB1718C041F2505511AF /* Pods-OrionHealth-dummy.m */,
+				7ACE00FADC6AA13891797503F5A828A9 /* Pods-OrionHealth-frameworks.sh */,
+				A21566A088C7D7E64B72115FE9C06EA7 /* Pods-OrionHealth-resources.sh */,
+				628EC6C3FF0F33C0A5E3F7CEE7E34844 /* Pods-OrionHealth-umbrella.h */,
+				073E664E352C9761E5C0A63A165E27FC /* Pods-OrionHealth.debug.xcconfig */,
+				E9DE00AC095293D7ABD5B64033FC9952 /* Pods-OrionHealth.release.xcconfig */,
+			);
+			name = "Pods-OrionHealth";
+			path = "Target Support Files/Pods-OrionHealth";
+			sourceTree = "<group>";
+		};
+		978007DCB56F415BE390E0F949D4D4E5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */,
+				FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9AD250921428DFE9090CC0819BEAEADE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				865658622FB598F7C094E659751570B1 /* Pods-OrionHealth */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A92A31CD09B20DE53204EFCE235B80B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B64916695DCB31223C0A82291EC75521 /* Info.plist */,
+				AFAF4F2E49EEB8ED14DCF08C23884007 /* JSONCodable.modulemap */,
+				85E117A18A519D728931D3393E2D9902 /* JSONCodable.xcconfig */,
+				31E3564F6028EACCF45ABAC977E242ED /* JSONCodable-dummy.m */,
+				2DBB1F89C166E5A9835D881F33038CDD /* JSONCodable-prefix.pch */,
+				226617268F477521FA51FCECCEEE8FD9 /* JSONCodable-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSONCodable";
+			sourceTree = "<group>";
+		};
+		AA0FCE351CE60255FC49FEAC7F4D275F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38E57F1800A0BF3F9536A494FF3292C0 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CA61A0655D450F31BC256EEFF8F40AC1 /* JSONCodable */ = {
+			isa = PBXGroup;
+			children = (
+				E6E712322037ED81CF76AF5E1444DF80 /* JSONCodable.swift */,
+				29C1A9789693204FD2499C856A854CE9 /* JSONDecodable.swift */,
+				1D4455EE36D24A4E5B1D0F3A92604825 /* JSONEncodable.swift */,
+				59D92F3FF77EF5A7CDB3B341CB1980DD /* JSONEncodable+Mirror.swift */,
+				971842EBBCB17B8A612B60C47632325E /* JSONHelpers.swift */,
+				040BBD4D8FAD69C7D8BC98EF012B4770 /* JSONString.swift */,
+				C488DE8737AA796FFEB38B5F6F39BA88 /* JSONTransformer.swift */,
+				A92A31CD09B20DE53204EFCE235B80B3 /* Support Files */,
+			);
+			name = JSONCodable;
+			path = JSONCodable;
+			sourceTree = "<group>";
+		};
+		D8215E7971E0CFDE9F263E7B681D49D6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27DADE12489D84261F93461C1B47A305 /* Info.plist */,
+				461C32380E4F4FEBD0475269BE988753 /* SVProgressHUD.modulemap */,
+				C235E529D7AD05142BE4043912939679 /* SVProgressHUD.xcconfig */,
+				D56A987540353DA10E6C4BEC31CD02BF /* SVProgressHUD-dummy.m */,
+				7DE43254E80241C004AAB5CEB2600163 /* SVProgressHUD-prefix.pch */,
+				925D93FB3297388A9E90500935A24509 /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		E0AB116CDE72775C1D835D96FBA830AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F2D8B7530B6D9D719B099A0E3426AC7 /* JSONCodable.framework */,
+				5AF8E1E4549359337FD0F1D55F8F56EC /* Pods_OrionHealth.framework */,
+				468E9F8DC4436ACBF306536CC00B07E6 /* SVProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D29013E0F45B0D302C14FFEEF8BC040 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196CD66AA2030F71E524DADF38A2E2D8 /* SVIndefiniteAnimatedView.h in Headers */,
+				46DAF1179F1CF972EF3CFC5CA0CDCF0F /* SVProgressAnimatedView.h in Headers */,
+				512B6210D46DECFDB49DB087A7B18B80 /* SVProgressHUD-umbrella.h in Headers */,
+				7B798421D902FC7D96C6AE60FC5648C9 /* SVProgressHUD.h in Headers */,
+				302C3D0D1E5C095AF428BAD97ED641AA /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39525FD068910205E7E73531A6286164 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479E08A92C9B423F3CB3B407F3277FFC /* Pods-OrionHealth-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED67FFB0516E8103AD021B62400DF4A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9005B1DF289E20A464F135E6C04F3380 /* JSONCodable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		153BD6A46C7B6EFD84230CFFC1C3CF94 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF6EC6E6A233EACF1225B690412E946 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				3CFA35D74B6D914DFEEC96931C99CDF6 /* Sources */,
+				1D53FC178F8D3107D099C50C50E19FCD /* Frameworks */,
+				0D29013E0F45B0D302C14FFEEF8BC040 /* Headers */,
+				DF177318908DF85DB77261C47B04005B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 468E9F8DC4436ACBF306536CC00B07E6 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		983BB71ECB9F80FDB23624080819A66F /* JSONCodable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD35E974826E19DF7B95915EC21F66EE /* Build configuration list for PBXNativeTarget "JSONCodable" */;
+			buildPhases = (
+				2320240E515D7BAFAA2976D7DF479A6F /* Sources */,
+				80572B8464A59E23D41519DBAC9ADB0A /* Frameworks */,
+				ED67FFB0516E8103AD021B62400DF4A2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONCodable;
+			productName = JSONCodable;
+			productReference = 9F2D8B7530B6D9D719B099A0E3426AC7 /* JSONCodable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C05BE6CF81A04BA645B988E95AE70679 /* Pods-OrionHealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F768019AB99E3189CBAF2200A9DEB2A /* Build configuration list for PBXNativeTarget "Pods-OrionHealth" */;
+			buildPhases = (
+				DF42C698179A7BD2997F021D6CBEE1ED /* Sources */,
+				FE3C3F6BBF5D43699B22052256633375 /* Frameworks */,
+				39525FD068910205E7E73531A6286164 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE30A9DA41DA752F9C3EB456F17E9B23 /* PBXTargetDependency */,
+				C1BB0616B7264AF63F3C30FAC8DC075A /* PBXTargetDependency */,
+			);
+			name = "Pods-OrionHealth";
+			productName = "Pods-OrionHealth";
+			productReference = 5AF8E1E4549359337FD0F1D55F8F56EC /* Pods_OrionHealth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E0AB116CDE72775C1D835D96FBA830AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				983BB71ECB9F80FDB23624080819A66F /* JSONCodable */,
+				C05BE6CF81A04BA645B988E95AE70679 /* Pods-OrionHealth */,
+				153BD6A46C7B6EFD84230CFFC1C3CF94 /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF177318908DF85DB77261C47B04005B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FAFD2273943FC5C421F48E3F757657C /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2320240E515D7BAFAA2976D7DF479A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA76A7B0C1B396DF75A19DCBF5CF37A /* JSONCodable-dummy.m in Sources */,
+				4E072F5E8CA72400A800B18518861D1F /* JSONCodable.swift in Sources */,
+				958E3E72F4CE7DE73BF460FED05F3711 /* JSONDecodable.swift in Sources */,
+				0DC4C844F308A1163E25A1349F187341 /* JSONEncodable+Mirror.swift in Sources */,
+				C6D4843B6A3AE8500F4CDA01CB58BB29 /* JSONEncodable.swift in Sources */,
+				77AE85262E5C805D9DBC50EC090F2EC9 /* JSONHelpers.swift in Sources */,
+				805BAFCFDFC6F5402F7637EDDBED8CB0 /* JSONString.swift in Sources */,
+				20B69CD791126B452098470C02434C88 /* JSONTransformer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFA35D74B6D914DFEEC96931C99CDF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4E5FBA6779377E6415786CD005EA32 /* SVIndefiniteAnimatedView.m in Sources */,
+				AE9BEB8689A9874A4710E9DF456DC466 /* SVProgressAnimatedView.m in Sources */,
+				C9A106D60FF9C217D05A7AD06EC1EFD7 /* SVProgressHUD-dummy.m in Sources */,
+				51B6DC81AE4EC6820C519525DB7482A9 /* SVProgressHUD.m in Sources */,
+				77FCE397E43F4FE82EF218F010817A88 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF42C698179A7BD2997F021D6CBEE1ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA6ED5CE7E63D264866E155C0B00F43 /* Pods-OrionHealth-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1BB0616B7264AF63F3C30FAC8DC075A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 153BD6A46C7B6EFD84230CFFC1C3CF94 /* SVProgressHUD */;
+			targetProxy = 7725A06C49913CF555B9773399B9A655 /* PBXContainerItemProxy */;
+		};
+		DE30A9DA41DA752F9C3EB456F17E9B23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONCodable;
+			target = 983BB71ECB9F80FDB23624080819A66F /* JSONCodable */;
+			targetProxy = A121B59677EE19CE310B5F3D7D784805 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B5D9875D0B2A502A7D24B95274DB83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C235E529D7AD05142BE4043912939679 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E16579B704C01AB5F68FA09C586EC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		638762972D793E0B73A9FB05C37DF088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E117A18A519D728931D3393E2D9902 /* JSONCodable.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSONCodable/JSONCodable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSONCodable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSONCodable/JSONCodable.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JSONCodable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99C99347E038F79A357AC4529C214595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 073E664E352C9761E5C0A63A165E27FC /* Pods-OrionHealth.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OrionHealth/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OrionHealth/Pods-OrionHealth.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OrionHealth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B4DB8F422366934A5E52E32BFD0D82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E117A18A519D728931D3393E2D9902 /* JSONCodable.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSONCodable/JSONCodable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSONCodable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSONCodable/JSONCodable.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JSONCodable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA58CDE7DBC413C1EC2EBE02721E87CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9DE00AC095293D7ABD5B64033FC9952 /* Pods-OrionHealth.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OrionHealth/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OrionHealth/Pods-OrionHealth.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OrionHealth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD437F2BFE4533E225F1C5E01F86CD7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE6BC58FD7494C7B536D3536C84E352F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C235E529D7AD05142BE4043912939679 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E16579B704C01AB5F68FA09C586EC90 /* Debug */,
+				AD437F2BFE4533E225F1C5E01F86CD7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F768019AB99E3189CBAF2200A9DEB2A /* Build configuration list for PBXNativeTarget "Pods-OrionHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C99347E038F79A357AC4529C214595 /* Debug */,
+				AA58CDE7DBC413C1EC2EBE02721E87CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF6EC6E6A233EACF1225B690412E946 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5D9875D0B2A502A7D24B95274DB83C /* Debug */,
+				EE6BC58FD7494C7B536D3536C84E352F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD35E974826E19DF7B95915EC21F66EE /* Build configuration list for PBXNativeTarget "JSONCodable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4DB8F422366934A5E52E32BFD0D82E /* Debug */,
+				638762972D793E0B73A9FB05C37DF088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

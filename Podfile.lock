@@ -1,0 +1,15 @@
+PODS:
+  - JSONCodable (3.0.1)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - JSONCodable (~> 3.0.1)
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  JSONCodable: bd8616ae881befe2b82fbbf56d98b2dd377ac662
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: 55bb206a7253e539f016e3f70a4f5536240b14fb
+
+COCOAPODS: 1.2.1

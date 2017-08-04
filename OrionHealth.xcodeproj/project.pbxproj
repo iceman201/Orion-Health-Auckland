@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0535BCB31F25E64800020F89 /* ContactDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0535BCB21F25E64800020F89 /* ContactDetailsTableViewCell.swift */; };
+		0535BCB81F25E8C400020F89 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0535BCB71F25E8C400020F89 /* Contact.swift */; };
+		05885C671F25E282004D00C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05885C661F25E282004D00C2 /* AppDelegate.swift */; };
+		05885C691F25E282004D00C2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05885C681F25E282004D00C2 /* MainViewController.swift */; };
+		05885C6C1F25E282004D00C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05885C6A1F25E282004D00C2 /* Main.storyboard */; };
+		05885C711F25E282004D00C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05885C701F25E282004D00C2 /* Assets.xcassets */; };
+		05885C741F25E282004D00C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05885C721F25E282004D00C2 /* LaunchScreen.storyboard */; };
+		05C2505B1F260493007B6B17 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C2505A1F260493007B6B17 /* API.swift */; };
+		05C2505D1F2637CF007B6B17 /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C2505C1F2637CF007B6B17 /* DetailsTableViewController.swift */; };
+		05C250611F26712C007B6B17 /* BorderDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C250601F26712C007B6B17 /* BorderDraw.swift */; };
+		92F5071B679424743B99A0F7 /* Pods_OrionHealth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BC378D53A8DE815226F0FD /* Pods_OrionHealth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0535BCB21F25E64800020F89 /* ContactDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		0535BCB71F25E8C400020F89 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		05885C631F25E282004D00C2 /* OrionHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrionHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05885C661F25E282004D00C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05885C681F25E282004D00C2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		05885C6B1F25E282004D00C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05885C701F25E282004D00C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05885C731F25E282004D00C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05885C751F25E282004D00C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05C2505A1F260493007B6B17 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		05C2505C1F2637CF007B6B17 /* DetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
+		05C250601F26712C007B6B17 /* BorderDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderDraw.swift; sourceTree = "<group>"; };
+		09BC378D53A8DE815226F0FD /* Pods_OrionHealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrionHealth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D1328042ABB209BA3FC3F7D /* Pods-OrionHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrionHealth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OrionHealth/Pods-OrionHealth.debug.xcconfig"; sourceTree = "<group>"; };
+		A644BD552148DE8124B19422 /* Pods-OrionHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrionHealth.release.xcconfig"; path = "Pods/Target Support Files/Pods-OrionHealth/Pods-OrionHealth.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05885C601F25E282004D00C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F5071B679424743B99A0F7 /* Pods_OrionHealth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0535BCAD1F25E5A700020F89 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				05885C681F25E282004D00C2 /* MainViewController.swift */,
+				05C2505C1F2637CF007B6B17 /* DetailsTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0535BCAE1F25E5A700020F89 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				0535BCB71F25E8C400020F89 /* Contact.swift */,
+				05C2505A1F260493007B6B17 /* API.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		0535BCAF1F25E5A700020F89 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0535BCB21F25E64800020F89 /* ContactDetailsTableViewCell.swift */,
+				05C250601F26712C007B6B17 /* BorderDraw.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		05885C5A1F25E282004D00C2 = {
+			isa = PBXGroup;
+			children = (
+				05885C651F25E282004D00C2 /* OrionHealth */,
+				05885C641F25E282004D00C2 /* Products */,
+				809B8FFBA9CA4C5F09C12335 /* Pods */,
+				7240C30660681EFAB90CC82F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		05885C641F25E282004D00C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05885C631F25E282004D00C2 /* OrionHealth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05885C651F25E282004D00C2 /* OrionHealth */ = {
+			isa = PBXGroup;
+			children = (
+				0535BCAE1F25E5A700020F89 /* Module */,
+				0535BCAF1F25E5A700020F89 /* View */,
+				0535BCAD1F25E5A700020F89 /* Controller */,
+				05885C6A1F25E282004D00C2 /* Main.storyboard */,
+				05885C661F25E282004D00C2 /* AppDelegate.swift */,
+				05885C701F25E282004D00C2 /* Assets.xcassets */,
+				05885C721F25E282004D00C2 /* LaunchScreen.storyboard */,
+				05885C751F25E282004D00C2 /* Info.plist */,
+			);
+			path = OrionHealth;
+			sourceTree = "<group>";
+		};
+		7240C30660681EFAB90CC82F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09BC378D53A8DE815226F0FD /* Pods_OrionHealth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		809B8FFBA9CA4C5F09C12335 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D1328042ABB209BA3FC3F7D /* Pods-OrionHealth.debug.xcconfig */,
+				A644BD552148DE8124B19422 /* Pods-OrionHealth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05885C621F25E282004D00C2 /* OrionHealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05885C781F25E282004D00C2 /* Build configuration list for PBXNativeTarget "OrionHealth" */;
+			buildPhases = (
+				4B55364A14C230FC41DF44C8 /* [CP] Check Pods Manifest.lock */,
+				05885C5F1F25E282004D00C2 /* Sources */,
+				05885C601F25E282004D00C2 /* Frameworks */,
+				05885C611F25E282004D00C2 /* Resources */,
+				9DE35BCBB38044F7DB62EDBC /* [CP] Embed Pods Frameworks */,
+				5E48D0482255C644C7DB9FF3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrionHealth;
+			productName = OrionHealth;
+			productReference = 05885C631F25E282004D00C2 /* OrionHealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05885C5B1F25E282004D00C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Liguo Jiao";
+				TargetAttributes = {
+					05885C621F25E282004D00C2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8436A3G9R2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 05885C5E1F25E282004D00C2 /* Build configuration list for PBXProject "OrionHealth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05885C5A1F25E282004D00C2;
+			productRefGroup = 05885C641F25E282004D00C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05885C621F25E282004D00C2 /* OrionHealth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05885C611F25E282004D00C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05885C741F25E282004D00C2 /* LaunchScreen.storyboard in Resources */,
+				05885C711F25E282004D00C2 /* Assets.xcassets in Resources */,
+				05885C6C1F25E282004D00C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B55364A14C230FC41DF44C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E48D0482255C644C7DB9FF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OrionHealth/Pods-OrionHealth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE35BCBB38044F7DB62EDBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OrionHealth/Pods-OrionHealth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05885C5F1F25E282004D00C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0535BCB81F25E8C400020F89 /* Contact.swift in Sources */,
+				05885C691F25E282004D00C2 /* MainViewController.swift in Sources */,
+				05885C671F25E282004D00C2 /* AppDelegate.swift in Sources */,
+				05C2505B1F260493007B6B17 /* API.swift in Sources */,
+				05C2505D1F2637CF007B6B17 /* DetailsTableViewController.swift in Sources */,
+				0535BCB31F25E64800020F89 /* ContactDetailsTableViewCell.swift in Sources */,
+				05C250611F26712C007B6B17 /* BorderDraw.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05885C6A1F25E282004D00C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05885C6B1F25E282004D00C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05885C721F25E282004D00C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05885C731F25E282004D00C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05885C761F25E282004D00C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05885C771F25E282004D00C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05885C791F25E282004D00C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D1328042ABB209BA3FC3F7D /* Pods-OrionHealth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8436A3G9R2;
+				INFOPLIST_FILE = OrionHealth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liguo-jiao.OrionHealth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		05885C7A1F25E282004D00C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A644BD552148DE8124B19422 /* Pods-OrionHealth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8436A3G9R2;
+				INFOPLIST_FILE = OrionHealth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liguo-jiao.OrionHealth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05885C5E1F25E282004D00C2 /* Build configuration list for PBXProject "OrionHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05885C761F25E282004D00C2 /* Debug */,
+				05885C771F25E282004D00C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05885C781F25E282004D00C2 /* Build configuration list for PBXNativeTarget "OrionHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05885C791F25E282004D00C2 /* Debug */,
+				05885C7A1F25E282004D00C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05885C5B1F25E282004D00C2 /* Project object */;
+}
